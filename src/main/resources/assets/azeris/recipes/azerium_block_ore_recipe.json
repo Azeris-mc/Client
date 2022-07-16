@@ -1,0 +1,13 @@
+{
+  "group": "azeris",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "azeris:azerium_block"
+    }
+  ],
+  "result": {
+    "item": "azeris:azerium_ingot",
+    "count": 9
+  }
+}

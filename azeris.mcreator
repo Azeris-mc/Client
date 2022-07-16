@@ -22,6 +22,222 @@
       "locked_code": true,
       "ids": {},
       "registry_name": "ng"
+    },
+    {
+      "name": "AzeriumShovelRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azerium_shovel_recipe",
+      "path": "~/All/Azerium"
+    },
+    {
+      "name": "AzeriumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azerium_armor_body_recipe",
+      "path": "~/All/Azerium"
+    },
+    {
+      "name": "AzeriumSwordRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azerium_sword_recipe",
+      "path": "~/All/Azerium"
+    },
+    {
+      "name": "AzeriumBlock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azerium_block",
+      "path": "~/All/Azerium"
+    },
+    {
+      "name": "AzeriumAxeRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azerium_axe_recipe",
+      "path": "~/All/Azerium"
+    },
+    {
+      "name": "AzeriumPickaxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azerium_pickaxe",
+      "path": "~/All/Azerium"
+    },
+    {
+      "name": "AzeriumSword",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azerium_sword",
+      "path": "~/All/Azerium"
+    },
+    {
+      "name": "AzeriumHoe",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azerium_hoe",
+      "path": "~/All/Azerium"
+    },
+    {
+      "name": "AzeriumHoeRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azerium_hoe_recipe",
+      "path": "~/All/Azerium"
+    },
+    {
+      "name": "AzeriumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azerium_armor_leggings_recipe",
+      "path": "~/All/Azerium"
+    },
+    {
+      "name": "AzeriumArmor",
+      "type": "armor",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azerium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/All/Azerium"
+    },
+    {
+      "name": "AzeriumShovel",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azerium_shovel",
+      "path": "~/All/Azerium"
+    },
+    {
+      "name": "AzeriumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azerium_armor_helmet_recipe",
+      "path": "~/All/Azerium"
+    },
+    {
+      "name": "AzeriumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azerium_block_ore_recipe",
+      "path": "~/All/Azerium"
+    },
+    {
+      "name": "AzeriumIngot",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azerium_ingot",
+      "path": "~/All/Azerium"
+    },
+    {
+      "name": "AzeriumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azerium_ore_block_recipe",
+      "path": "~/All/Azerium"
+    },
+    {
+      "name": "AzeriumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azerium_pickaxe_recipe",
+      "path": "~/All/Azerium"
+    },
+    {
+      "name": "AzeriumOre",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azerium_ore",
+      "path": "~/All/Azerium"
+    },
+    {
+      "name": "AzeriumOreSmelting",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azerium_ore_smelting",
+      "path": "~/All/Azerium"
+    },
+    {
+      "name": "AzeriumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azerium_armor_boots_recipe",
+      "path": "~/All/Azerium"
+    },
+    {
+      "name": "AzeriumAxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azerium_axe",
+      "path": "~/All/Azerium"
     }
   ],
   "variable_elements": [],
@@ -39,6 +255,15 @@
       {
         "name": "dev",
         "children": []
+      },
+      {
+        "name": "All",
+        "children": [
+          {
+            "name": "Azerium",
+            "children": []
+          }
+        ]
       },
       {
         "name": "procedure",
