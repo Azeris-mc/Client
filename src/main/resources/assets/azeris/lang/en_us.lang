@@ -1,2 +1,6 @@
+item.azerium_armorboots.name=Azerium Boots
 itemGroup.tabazeris_tab=Azeris
 tile.azerium_ore.name=Azerium Ore
+item.azerium_armorbody.name=Azerium Chestplate
+item.azerium_armorhelmet.name=Azerium Helmet
+item.azerium_armorlegs.name=Azerium Leggings

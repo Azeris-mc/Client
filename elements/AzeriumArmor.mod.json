@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "azerium_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AzerisTab"
     },
     "armorTextureFile": "azerium",
     "helmetName": "Azerium Helmet",
@@ -38,13 +38,13 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 15,
-    "damageValueHelmet": 2,
-    "damageValueBody": 5,
-    "damageValueLeggings": 6,
-    "damageValueBoots": 2,
-    "enchantability": 9,
-    "toughness": 0.0,
+    "maxDamage": 20,
+    "damageValueHelmet": 10,
+    "damageValueBody": 25,
+    "damageValueLeggings": 20,
+    "damageValueBoots": 10,
+    "enchantability": 10,
+    "toughness": 3.0,
     "knockbackResistance": 0.0,
     "equipSound": {
       "value": ""
