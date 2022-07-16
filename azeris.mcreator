@@ -15,15 +15,6 @@
       "path": "~/procedure"
     },
     {
-      "name": "Ng",
-      "type": "code",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": true,
-      "ids": {},
-      "registry_name": "ng"
-    },
-    {
       "name": "AzeriumShovelRecipe",
       "type": "recipe",
       "sortid": 16,
@@ -57,7 +48,7 @@
       "name": "AzeriumBlock",
       "type": "block",
       "sortid": 4,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "azerium_block",
@@ -87,7 +78,7 @@
       "name": "AzeriumSword",
       "type": "tool",
       "sortid": 10,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "azerium_sword",
@@ -97,7 +88,7 @@
       "name": "AzeriumHoe",
       "type": "tool",
       "sortid": 12,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "azerium_hoe",
@@ -127,7 +118,7 @@
       "name": "AzeriumArmor",
       "type": "armor",
       "sortid": 18,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "azerium_armor",
@@ -143,7 +134,7 @@
       "name": "AzeriumShovel",
       "type": "tool",
       "sortid": 11,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "azerium_shovel",
@@ -173,7 +164,7 @@
       "name": "AzeriumIngot",
       "type": "item",
       "sortid": 2,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "azerium_ingot",
@@ -203,7 +194,7 @@
       "name": "AzeriumOre",
       "type": "block",
       "sortid": 3,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "azerium_ore",
@@ -213,7 +204,7 @@
       "name": "AzeriumOreSmelting",
       "type": "recipe",
       "sortid": 7,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "azerium_ore_smelting",
@@ -233,7 +224,7 @@
       "name": "AzeriumAxe",
       "type": "tool",
       "sortid": 9,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "azerium_axe",
@@ -243,7 +234,9 @@
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.azerium_pickaxe.name": "Azerium Pickaxe"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -267,7 +260,12 @@
       },
       {
         "name": "procedure",
-        "children": []
+        "children": [
+          {
+            "name": "hammer",
+            "children": []
+          }
+        ]
       }
     ]
   },
