@@ -256,19 +256,6 @@
         ]
       },
       "path": "~/All/Azerium/procedure"
-    },
-    {
-      "name": "HammerBreak",
-      "type": "procedure",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "hammer_break",
-      "metadata": {
-        "dependencies": []
-      },
-      "path": "~/procedure/hammer"
     }
   ],
   "variable_elements": [],
@@ -292,10 +279,6 @@
   "foldersRoot": {
     "name": "~",
     "children": [
-      {
-        "name": "Armor",
-        "children": []
-      },
       {
         "name": "dev",
         "children": []
