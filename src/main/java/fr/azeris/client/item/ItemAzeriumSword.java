@@ -34,7 +34,7 @@ public class ItemAzeriumSword extends ElementsAzerisMod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("AZERIUM_SWORD", 2, 250, 6f, -2f, 14)) {
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("AZERIUM_SWORD", 0, 250, 15f, 6f, 15)) {
 			@Override
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);
@@ -42,14 +42,14 @@ public class ItemAzeriumSword extends ElementsAzerisMod.ModElement {
 					multimap.put(SharedMonsterAttributes.ATTACK_DAMAGE.getName(),
 							new AttributeModifier(ATTACK_DAMAGE_MODIFIER, "Weapon modifier", (double) this.getAttackDamage(), 0));
 					multimap.put(SharedMonsterAttributes.ATTACK_SPEED.getName(),
-							new AttributeModifier(ATTACK_SPEED_MODIFIER, "Weapon modifier", -3, 0));
+							new AttributeModifier(ATTACK_SPEED_MODIFIER, "Weapon modifier", -4, 0));
 				}
 				return multimap;
 			}
 
 			public Set<String> getToolClasses(ItemStack stack) {
 				HashMap<String, Integer> ret = new HashMap<String, Integer>();
-				ret.put("sword", 2);
+				ret.put("sword", 0);
 				return ret.keySet();
 			}
 		}.setUnlocalizedName("azerium_sword").setRegistryName("azerium_sword").setCreativeTab(CreativeTabs.COMBAT));
