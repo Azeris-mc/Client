@@ -1,0 +1,42 @@
+{
+  "group": "azeris",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "azeris:azerium_ingot"
+    },
+    "1": {
+      "item": "azeris:azerium_ingot"
+    },
+    "2": {
+      "item": "azeris:azerium_ingot"
+    },
+    "3": {
+      "item": "azeris:azerium_ingot"
+    },
+    "4": {
+      "item": "azeris:azerium_ingot"
+    },
+    "5": {
+      "item": "azeris:azerium_ingot"
+    },
+    "6": {
+      "item": "azeris:azerium_ingot"
+    },
+    "7": {
+      "item": "azeris:azerium_ingot"
+    },
+    "8": {
+      "item": "azeris:azerium_ingot"
+    }
+  },
+  "result": {
+    "item": "azeris:azerium_block",
+    "count": 1
+  }
+}
