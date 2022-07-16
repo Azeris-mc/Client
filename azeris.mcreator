@@ -1,6 +1,20 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Startgame",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "startgame",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/procedure"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
@@ -16,6 +30,10 @@
       {
         "name": "dev",
         "children": []
+      },
+      {
+        "name": "procedure",
+        "children": []
       }
     ]
   },
@@ -23,8 +41,8 @@
     "modid": "azeris",
     "modName": "azeris",
     "version": "1.0.0",
-    "author": "Nathan Van Uytvanck, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "author": "MikaM06, RGreenWolf, Azeris",
+    "websiteURL": "https://www.undercraft.fr",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
