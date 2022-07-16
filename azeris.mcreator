@@ -13,6 +13,15 @@
         "dependencies": []
       },
       "path": "~/procedure"
+    },
+    {
+      "name": "Ng",
+      "type": "code",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ng"
     }
   ],
   "variable_elements": [],
