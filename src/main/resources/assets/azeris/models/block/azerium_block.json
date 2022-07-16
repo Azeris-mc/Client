@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "azeris:blocks/azerium_ore_block",
-    "particle": "azeris:blocks/azerium_ore_block"
+    "all": "azeris:blocks/test_ore_block",
+    "particle": "azeris:blocks/test_ore_block"
   }
 }

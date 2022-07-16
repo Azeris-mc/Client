@@ -1,11 +1,12 @@
+tile.azerium_ore.name=Azerium Ore
+item.azerium_armorhelmet.name=Azerium Helmet
+item.azerium_shovel.name=Azerium Shovel
+item.azerium_armorlegs.name=Azerium Leggings
 item.azerium_armorboots.name=Azerium Boots
 tile.azerium_block.name=Block of Azerium
-tile.azerium_ore.name=Azerium Ore
+itemGroup.tabazeris_tab=Azeris
 item.azerium_armorbody.name=Azerium Chestplate
 item.azerium_pickaxe.name=Azerium Pickaxe
 item.azerium_hoe.name=Azerium Hoe
 item.azerium_axe.name=Azerium Axe
 item.azerium_ingot.name=Azerium
-item.azerium_armorhelmet.name=Azerium Helmet
-item.azerium_shovel.name=Azerium Shovel
-item.azerium_armorlegs.name=Azerium Leggings

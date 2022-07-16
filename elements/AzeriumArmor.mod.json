@@ -3,17 +3,20 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "azerium_head",
+    "textureHelmet": "test_head",
     "enableBody": true,
-    "textureBody": "azerium_body",
+    "textureBody": "test_body",
     "enableLeggings": true,
-    "textureLeggings": "azerium_leggings",
+    "textureLeggings": "test_leggings",
     "enableBoots": true,
-    "textureBoots": "azerium_boots",
+    "textureBoots": "test_boots",
+    "onHelmetTick": {
+      "name": "Casquep"
+    },
     "creativeTab": {
       "value": "COMBAT"
     },
-    "armorTextureFile": "azerium",
+    "armorTextureFile": "test",
     "helmetName": "Azerium Helmet",
     "bodyName": "Azerium Chestplate",
     "leggingsName": "Azerium Leggings",

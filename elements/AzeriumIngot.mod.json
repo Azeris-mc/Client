@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "azerium_ingot",
+    "texture": "test_ingot",
     "customModelName": "Normal",
     "name": "Azerium",
     "rarity": "COMMON",

@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "azerium_shovel",
+    "texture": "test_shovel",
     "customModelName": "Normal",
     "name": "Azerium Shovel",
     "specialInfo": [],

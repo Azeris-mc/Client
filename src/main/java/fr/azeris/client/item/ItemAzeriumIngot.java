@@ -1,12 +1,24 @@
 
 package fr.azeris.client.item;
 
+import net.minecraftforge.fml.relauncher.SideOnly;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.client.model.ModelLoader;
+import net.minecraftforge.client.event.ModelRegistryEvent;
+
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.block.state.IBlockState;
+
+import fr.azeris.client.ElementsAzerisMod;
+
 @ElementsAzerisMod.ModElement.Tag
 public class ItemAzeriumIngot extends ElementsAzerisMod.ModElement {
-
 	@GameRegistry.ObjectHolder("azeris:azerium_ingot")
 	public static final Item block = null;
-
 	public ItemAzeriumIngot(ElementsAzerisMod instance) {
 		super(instance, 2);
 	}
@@ -21,9 +33,7 @@ public class ItemAzeriumIngot extends ElementsAzerisMod.ModElement {
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("azeris:azerium_ingot", "inventory"));
 	}
-
 	public static class ItemCustom extends Item {
-
 		public ItemCustom() {
 			setMaxDamage(0);
 			maxStackSize = 64;
@@ -46,7 +56,5 @@ public class ItemAzeriumIngot extends ElementsAzerisMod.ModElement {
 		public float getDestroySpeed(ItemStack par1ItemStack, IBlockState par2Block) {
 			return 1F;
 		}
-
 	}
-
 }
